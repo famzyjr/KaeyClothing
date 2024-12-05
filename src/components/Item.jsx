@@ -8,7 +8,7 @@ function Item(props) {
   // stimulating api
      setTimeout(()=>{
       setisLoading(false);
-     },2000)
+     },20000)
   },[])
   if(isLoading){
     return <Loading/>;
